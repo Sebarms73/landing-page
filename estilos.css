@@ -1,0 +1,107 @@
+
+*{
+	
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family:serif;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	list-style: none;
+	
+	}
+.logo{
+	width: 130px;
+	margin: 0px;
+	padding: 0px;
+	height: 80px;
+	object-fit:cover;
+	
+	
+}
+header{
+display: flex;	
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+height: 75px;
+
+
+
+}
+
+.menu , .lista{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.lista{
+
+	gap: 30px;
+}
+
+/* ===================== MAIN===========================*/
+
+main{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	color: brown;
+}
+
+/*====================== Hero ========================= */
+#banner{
+	margin-top: 10px;
+	background-color: black;
+	max-width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 70px 0px;
+}
+
+.banner-info{
+
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 50%;
+}
+
+.banner-info h1{
+	margin-right: 15px;
+	font-size: 48px;
+	font-weight: 800px;
+	width: 80%;
+	color: whitesmoke;
+	min-width: 500px;
+}
+
+.banner-info p{
+	font-size: 14px;
+	width: 90%;
+	text-align: center;
+	
+	color: grey;
+}
+
+.conocer-mas{
+width: 90%;	
+
+align-items: center;
+justify-content: center;
+display: flex;
+
+}
+.banner-info a{
+	color:wheat;
+	background-color: blue;
+	width: fit-content;
+	text-align: center;	
+	padding: 10px;
+	border-radius: 10px;
+}
