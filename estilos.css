@@ -12,19 +12,25 @@
 	}
 .logo{
 	width: 130px;
+	height: 70px;
 	margin: 0px;
 	padding: 0px;
 	height: 80px;
 	object-fit:cover;
-	
+	align-items: center;
 	
 }
+
+
+
 header{
+ 
 display: flex;	
 justify-content: space-between;
 align-items: center;
 padding-right: 10px;
-height: 75px;
+height: 80px;
+max-width: 1200px;
 
 
 
@@ -51,6 +57,9 @@ main{
 	justify-content: center;
 	width: 100%;
 	color: brown;
+	width: 100%;
+	background-color: black;
+	
 
 }
 
@@ -58,11 +67,12 @@ main{
 #banner{
 	margin-top: 10px;
 	background-color: black;
-	max-width: 1200px;
+	max-width: 1000px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 40px;
+	padding: 20px;
+	
 	
 }
 
@@ -99,11 +109,24 @@ justify-content: center;
 display: flex;
 
 }
+
+
 .banner-info a{
+	border: solid 1px;
 	color:wheat;
 	background-color: blue;
 	width: fit-content;
 	text-align: center;	
 	padding: 10px;
 	border-radius: 10px;
+}
+
+
+
+.muestra{
+	display: flex;
+	height: 300px;
+	border-radius: 5px;
+	border-image: fill;
+	
 }
