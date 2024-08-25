@@ -85,12 +85,17 @@ main{
 }
 
 .banner-info h1{
+	
+	text-align: center;
+	justify-content: center;
+	align-items: center;
 	margin-right: 15px;
 	font-size: 48px;
 	font-weight: 800px;
-	width: 80%;
+	width: 90%;
 	color: whitesmoke;
-	min-width: 500px;
+	
+	min-width: auto;
 }
 
 .banner-info p{
